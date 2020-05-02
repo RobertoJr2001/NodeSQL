@@ -9,7 +9,7 @@ class Address extends Model {
     },
     
     {
-      sequelize // Databse connection
+      sequelize // Database connection
     })
   } 
 
