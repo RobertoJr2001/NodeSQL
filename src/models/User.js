@@ -8,7 +8,7 @@ class User extends Model {
     },
     
     {
-      sequelize // Databse connection
+      sequelize // Database connection
     })
   }
 
