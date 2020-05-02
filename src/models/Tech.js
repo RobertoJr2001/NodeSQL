@@ -7,7 +7,7 @@ class Tech extends Model {
     },
     
     {
-      sequelize, // Databse connection
+      sequelize, // Database connection
       tableName: 'techs',
     })
   } 
