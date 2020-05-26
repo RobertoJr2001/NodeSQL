@@ -8,9 +8,10 @@ const Tech = require('../models/Tech');
 
 const connection = new Sequelize(dbconfig);
 
-User.init(connection); // Register the model within the connection
-Address.init(connection);// Register the model within the connection
-Tech.init(connection);// Register the model within the connection
+// Register the model within the connection
+User.init(connection);
+Address.init(connection);
+Tech.init(connection);
 
 User.associate(connection.models);
 Address.associate(connection.models);
